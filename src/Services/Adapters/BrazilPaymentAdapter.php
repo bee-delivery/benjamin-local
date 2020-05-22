@@ -8,9 +8,9 @@ abstract class BrazilPaymentAdapter extends PaymentAdapter
         $transformed = parent::transformPayment();
         $transformed->person_type = $this->payment->person->type;
 
-        if ($this->payment->person->type === 'business') {
-            $transformed->responsible = $this->getResponsible();
-        }
+//        if ($this->payment->person->type === 'business') {
+//            $transformed->responsible = $this->getResponsible();
+//        }
 
         return $transformed;
     }
