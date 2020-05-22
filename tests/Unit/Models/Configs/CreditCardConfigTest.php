@@ -2,9 +2,9 @@
 namespace Tests\Unit\Models\Configs;
 
 use Tests\TestCase;
-use Ebanx\Benjamin\Models\Configs\CreditCardConfig;
-use Ebanx\Benjamin\Services\Gateways\CreditCard;
-use Ebanx\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Configs\CreditCardConfig;
+use BeeDelivery\Benjamin\Services\Gateways\CreditCard;
+use BeeDelivery\Benjamin\Models\Currency;
 
 class CreditCardConfigTest extends TestCase
 {

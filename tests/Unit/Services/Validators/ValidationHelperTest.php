@@ -2,7 +2,7 @@
 namespace Tests\Unit\Services\Validators;
 
 use Tests\TestCase;
-use Ebanx\Benjamin\Services\Validators\ValidationHelper;
+use BeeDelivery\Benjamin\Services\Validators\ValidationHelper;
 
 class ValidationHelperTest extends TestCase
 {

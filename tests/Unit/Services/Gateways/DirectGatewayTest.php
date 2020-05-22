@@ -1,10 +1,10 @@
 <?php
 namespace Tests\Unit\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Services\Gateways\DirectGateway;
-use Ebanx\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Services\Gateways\DirectGateway;
+use BeeDelivery\Benjamin\Services\Http\Client;
 use Tests\TestCase;
 
 class DirectGatewayTest extends TestCase

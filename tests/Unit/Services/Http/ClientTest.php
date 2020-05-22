@@ -4,7 +4,7 @@ namespace Tests\Unit\Services\Http;
 use Tests\TestCase;
 use Tests\Helpers\Mocks\Http\ClientForTests;
 use Tests\Helpers\Mocks\Http\EchoEngine;
-use Ebanx\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Http\Client;
 
 class ClientTest extends TestCase
 {

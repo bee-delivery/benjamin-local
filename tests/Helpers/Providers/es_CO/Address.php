@@ -1,7 +1,7 @@
 <?php
 namespace Tests\Helpers\Providers\es_CO;
 
-use Ebanx\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Country;
 use Tests\Helpers\Providers\Address as BaseAddress;
 
 class Address extends BaseAddress

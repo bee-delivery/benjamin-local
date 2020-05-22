@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Models\Responses;
+namespace BeeDelivery\Benjamin\Models\Responses;
 
 use Tests\TestCase;
 

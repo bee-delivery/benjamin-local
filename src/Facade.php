@@ -1,16 +1,16 @@
 <?php
-namespace Ebanx\Benjamin;
+namespace BeeDelivery\Benjamin;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Configs\CreditCardConfig;
-use Ebanx\Benjamin\Models\Configs\AddableConfig;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Services\CancelPayment;
-use Ebanx\Benjamin\Services\Gateways;
-use Ebanx\Benjamin\Services\PaymentInfo;
-use Ebanx\Benjamin\Services\Exchange;
-use Ebanx\Benjamin\Services\Refund;
-use Ebanx\Benjamin\Services\Http\Client as HttpClient;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\CreditCardConfig;
+use BeeDelivery\Benjamin\Models\Configs\AddableConfig;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Services\CancelPayment;
+use BeeDelivery\Benjamin\Services\Gateways;
+use BeeDelivery\Benjamin\Services\PaymentInfo;
+use BeeDelivery\Benjamin\Services\Exchange;
+use BeeDelivery\Benjamin\Services\Refund;
+use BeeDelivery\Benjamin\Services\Http\Client as HttpClient;
 
 class Facade
 {

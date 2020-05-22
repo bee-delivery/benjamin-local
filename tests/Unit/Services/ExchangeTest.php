@@ -5,10 +5,10 @@ use Tests\TestCase;
 use Tests\Helpers\Mocks\Http\ClientForTests;
 use Tests\Helpers\Mocks\Http\EchoEngine;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Services\Http\Client;
-use Ebanx\Benjamin\Services\Exchange;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Exchange;
 
 class ExchangeTest extends TestCase
 {

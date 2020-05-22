@@ -1,7 +1,7 @@
 <?php
 namespace Tests\Helpers\Mocks\Http;
 
-use Ebanx\Benjamin\Services\Http\Engine;
+use BeeDelivery\Benjamin\Services\Http\Engine;
 
 class EchoEngine extends Engine
 {

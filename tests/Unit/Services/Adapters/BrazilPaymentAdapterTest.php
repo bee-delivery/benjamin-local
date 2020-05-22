@@ -1,10 +1,10 @@
 <?php
 namespace Tests\Unit\Services\Adapters;
 
-use Ebanx\Benjamin\Services\Adapters\BrazilPaymentAdapter;
+use BeeDelivery\Benjamin\Services\Adapters\BrazilPaymentAdapter;
 use Tests\Helpers\Builders\BuilderFactory;
 use JsonSchema;
-use Ebanx\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\Config;
 use Tests\TestCase;
 
 class BrazilPaymentAdapterTest extends TestCase

@@ -1,12 +1,12 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\SubAccount as SubAccountModel;
+use BeeDelivery\Benjamin\Models\SubAccount as SubAccountModel;
 
 class SubAccount extends BaseProvider
 {
     /**
-     * @return \Ebanx\Benjamin\Models\SubAccount
+     * @return \BeeDelivery\Benjamin\Models\SubAccount
      */
     public function subAccountModel()
     {

@@ -1,13 +1,13 @@
 <?php
 namespace Tests\Unit\Services\Adapters;
 
-use Ebanx\Benjamin\Models\Address;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Models\Person;
-use Ebanx\Benjamin\Services\Adapters\BankTransferPaymentAdapter;
+use BeeDelivery\Benjamin\Models\Address;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Person;
+use BeeDelivery\Benjamin\Services\Adapters\BankTransferPaymentAdapter;
 use Tests\Helpers\Builders\BuilderFactory;
 use JsonSchema;
-use Ebanx\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\Config;
 use Tests\TestCase;
 
 class BankTransferPaymentAdapterTest extends TestCase

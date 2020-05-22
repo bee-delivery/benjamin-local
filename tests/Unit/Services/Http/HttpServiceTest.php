@@ -1,9 +1,9 @@
 <?php
 namespace Tests\Unit\Services\Http;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Services\Http\Client;
-use Ebanx\Benjamin\Services\Http\HttpService;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Http\HttpService;
 use Tests\TestCase;
 
 class HttpServiceTest extends TestCase

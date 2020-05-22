@@ -1,8 +1,8 @@
 <?php
 namespace Tests\Unit\Services\Validators;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Services\Validators\BaseValidator;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Services\Validators\BaseValidator;
 use Tests\TestCase;
 
 class BaseValidatorTest extends TestCase

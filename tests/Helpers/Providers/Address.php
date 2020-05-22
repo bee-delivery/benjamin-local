@@ -1,13 +1,13 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Address as AddressModel;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Address as AddressModel;
 
 class Address extends BaseProvider
 {
     /**
-     * @return \Ebanx\Benjamin\Models\Address
+     * @return \BeeDelivery\Benjamin\Models\Address
      */
     public function addressModel()
     {

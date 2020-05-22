@@ -1,12 +1,12 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\Card as CardModel;
+use BeeDelivery\Benjamin\Models\Card as CardModel;
 
 class Card extends BaseProvider
 {
     /**
-     * @return \Ebanx\Benjamin\Models\Card
+     * @return \BeeDelivery\Benjamin\Models\Card
      */
     public function cardModel()
     {

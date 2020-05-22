@@ -1,12 +1,12 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\Request as RequestModel;
+use BeeDelivery\Benjamin\Models\Request as RequestModel;
 
 class Request extends BaseProvider
 {
     /**
-     * @return \Ebanx\Benjamin\Models\Request
+     * @return \BeeDelivery\Benjamin\Models\Request
      */
     public function requestModel()
     {

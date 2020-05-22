@@ -1,7 +1,7 @@
 <?php
-namespace Ebanx\Benjamin\Services\Validators;
+namespace BeeDelivery\Benjamin\Services\Validators;
 
-use Ebanx\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\Config;
 
 abstract class BaseValidator
 {

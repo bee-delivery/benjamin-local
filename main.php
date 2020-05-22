@@ -1,8 +1,8 @@
 <?php
 namespace
 {
-    use Ebanx\Benjamin\Facade;
-    use Ebanx\Benjamin\Models\Configs\AddableConfig;
+    use BeeDelivery\Benjamin\Facade;
+    use BeeDelivery\Benjamin\Models\Configs\AddableConfig;
 
     if (!function_exists('EBANX')) {
         /**

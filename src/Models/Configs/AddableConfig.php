@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Models\Configs;
+namespace BeeDelivery\Benjamin\Models\Configs;
 
 interface AddableConfig
 {

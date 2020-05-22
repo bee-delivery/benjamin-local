@@ -1,11 +1,11 @@
 <?php
-namespace Ebanx\Benjamin\Models;
+namespace BeeDelivery\Benjamin\Models;
 
 class Request extends BaseModel
 {
     /**
      * Amount to charge in site's currency.
-     * @see Ebanx\Benjamin\Models\Configs\Config::$baseCurrency
+     * @see BeeDelivery\Benjamin\Models\Configs\Config::$baseCurrency
      *
      * @var float
      */

@@ -1,12 +1,12 @@
 <?php
-namespace Ebanx\Benjamin\Services\Adapters;
+namespace BeeDelivery\Benjamin\Services\Adapters;
 
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Address;
-use Ebanx\Benjamin\Models\Person;
-use Ebanx\Benjamin\Models\SubAccount;
-use Ebanx\Benjamin\Models\Request;
-use Ebanx\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Address;
+use BeeDelivery\Benjamin\Models\Person;
+use BeeDelivery\Benjamin\Models\SubAccount;
+use BeeDelivery\Benjamin\Models\Request;
+use BeeDelivery\Benjamin\Models\Configs\Config;
 
 class RequestAdapter extends BaseAdapter
 {

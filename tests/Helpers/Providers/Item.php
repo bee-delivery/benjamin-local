@@ -1,12 +1,12 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\Item as ItemModel;
+use BeeDelivery\Benjamin\Models\Item as ItemModel;
 
 class Item extends BaseProvider
 {
     /**
-     * @return \Ebanx\Benjamin\Models\Item
+     * @return \BeeDelivery\Benjamin\Models\Item
      */
     public function itemModel()
     {

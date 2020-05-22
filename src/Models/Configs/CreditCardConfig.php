@@ -1,8 +1,8 @@
 <?php
-namespace Ebanx\Benjamin\Models\Configs;
+namespace BeeDelivery\Benjamin\Models\Configs;
 
-use Ebanx\Benjamin\Models\BaseModel;
-use Ebanx\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\BaseModel;
+use BeeDelivery\Benjamin\Models\Currency;
 
 class CreditCardConfig extends BaseModel implements AddableConfig
 {

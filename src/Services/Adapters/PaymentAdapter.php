@@ -1,10 +1,10 @@
 <?php
-namespace Ebanx\Benjamin\Services\Adapters;
+namespace BeeDelivery\Benjamin\Services\Adapters;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Models\SplitRule;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\SplitRule;
 
 class PaymentAdapter extends BaseAdapter
 {

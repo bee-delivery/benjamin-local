@@ -1,8 +1,8 @@
 <?php
-namespace Ebanx\Benjamin\Models\Configs;
+namespace BeeDelivery\Benjamin\Models\Configs;
 
-use Ebanx\Benjamin\Models\BaseModel;
-use Ebanx\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\BaseModel;
+use BeeDelivery\Benjamin\Models\Currency;
 
 class Config extends BaseModel implements AddableConfig
 {
@@ -31,7 +31,7 @@ class Config extends BaseModel implements AddableConfig
 
     /**
      * Sets the site default currency ISO code.
-     * @see Ebanx\Benjamin\Models\Currency
+     * @see BeeDelivery\Benjamin\Models\Currency
      *
      * @var string
      */

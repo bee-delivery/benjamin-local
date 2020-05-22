@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Services\Http;
+namespace BeeDelivery\Benjamin\Services\Http;
 
 class Engine
 {

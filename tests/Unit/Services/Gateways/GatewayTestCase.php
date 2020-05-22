@@ -1,12 +1,12 @@
 <?php
 namespace Tests\Unit\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Services\Gateways\BaseGateway;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Services\Gateways\BaseGateway;
 use Tests\TestCase;
 use Tests\Helpers\Environment;
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Country;
 
 class GatewayTestCase extends TestCase
 {

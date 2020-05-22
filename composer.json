@@ -1,5 +1,5 @@
 {
-    "name": "ebanx/benjamin-local",
+    "name": "bee-delivery/benjamin-local",
     "description": "EBANX Pay's API library for local payments",
     "type": "library",
     "license": "proprietary",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ebanx\\Benjamin\\": "src/"
+            "BeeDelivery\\Benjamin\\": "src/"
         },
         "files": ["main.php"]
     },

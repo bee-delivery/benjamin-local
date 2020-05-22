@@ -1,9 +1,9 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Bank;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Bank;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Currency;
 
 class EbanxAccount extends Tef
 {

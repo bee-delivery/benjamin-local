@@ -1,13 +1,13 @@
 <?php
 namespace Tests\Unit\Services\Adapters;
 
-use Ebanx\Benjamin\Models\Address;
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Models\Person;
-use Ebanx\Benjamin\Models\SplitRule;
-use Ebanx\Benjamin\Services\Adapters\RequestAdapter;
+use BeeDelivery\Benjamin\Models\Address;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Person;
+use BeeDelivery\Benjamin\Models\SplitRule;
+use BeeDelivery\Benjamin\Services\Adapters\RequestAdapter;
 use Tests\Helpers\Builders\BuilderFactory;
 use JsonSchema;
 use Tests\TestCase;

@@ -3,10 +3,10 @@ namespace Tests\Unit\Services\Gateways;
 
 use Tests\Helpers\Builders\BuilderFactory;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Services\Gateways\Hosted;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Services\Gateways\Hosted;
 
 class HostedTest extends GatewayTestCase
 {

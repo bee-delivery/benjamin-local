@@ -1,12 +1,12 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Services\Http\Client;
-use Ebanx\Benjamin\Services\Http\HttpService;
-use Ebanx\Benjamin\Services\Exchange;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Http\HttpService;
+use BeeDelivery\Benjamin\Services\Exchange;
 
 abstract class BaseGateway extends HttpService
 {

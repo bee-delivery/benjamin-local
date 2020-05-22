@@ -1,12 +1,12 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\Payment as PaymentModel;
+use BeeDelivery\Benjamin\Models\Payment as PaymentModel;
 
 class Payment extends BaseProvider
 {
     /**
-     * @return \Ebanx\Benjamin\Models\Payment
+     * @return \BeeDelivery\Benjamin\Models\Payment
      */
     public function paymentModel()
     {

@@ -1,11 +1,11 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Services\Adapters\BoletoPaymentAdapter;
-use Ebanx\Benjamin\Services\Traits\Printable;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Services\Adapters\BoletoPaymentAdapter;
+use BeeDelivery\Benjamin\Services\Traits\Printable;
 
 class Boleto extends DirectGateway
 {

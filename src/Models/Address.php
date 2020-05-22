@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Models;
+namespace BeeDelivery\Benjamin\Models;
 
 class Address extends BaseModel
 {

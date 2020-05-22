@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Services\Validators;
+namespace BeeDelivery\Benjamin\Services\Validators;
 
 class ValidationHelper
 {

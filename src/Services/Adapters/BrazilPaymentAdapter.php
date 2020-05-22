@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Services\Adapters;
+namespace BeeDelivery\Benjamin\Services\Adapters;
 
 abstract class BrazilPaymentAdapter extends PaymentAdapter
 {

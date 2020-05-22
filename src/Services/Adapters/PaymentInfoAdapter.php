@@ -1,7 +1,7 @@
 <?php
-namespace Ebanx\Benjamin\Services\Adapters;
+namespace BeeDelivery\Benjamin\Services\Adapters;
 
-use Ebanx\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\Config;
 
 class PaymentInfoAdapter extends BaseAdapter
 {

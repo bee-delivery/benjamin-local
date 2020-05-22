@@ -1,8 +1,8 @@
 <?php
-namespace Ebanx\Benjamin\Services\Adapters;
+namespace BeeDelivery\Benjamin\Services\Adapters;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\SplitRule;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\SplitRule;
 
 class RefundAdapter extends BaseAdapter
 {

@@ -6,7 +6,7 @@ use Tests\Helpers\Providers\Person as BasePerson;
 class Person extends BasePerson
 {
     /**
-     * @return \Ebanx\Benjamin\Models\Person
+     * @return \BeeDelivery\Benjamin\Models\Person
      */
     public function personModel()
     {

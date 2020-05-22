@@ -1,14 +1,14 @@
 <?php
 namespace Tests\Integration;
 
-use Ebanx\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Payment;
 use Tests\TestCase;
-use Ebanx\Benjamin\Facade;
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Configs\CreditCardConfig;
-use Ebanx\Benjamin\Services\Http\Client as HttpClient;
-use Ebanx\Benjamin\Services\Traits\Printable;
-use Ebanx\Benjamin\Services\Gateways\BaseGateway;
+use BeeDelivery\Benjamin\Facade;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\CreditCardConfig;
+use BeeDelivery\Benjamin\Services\Http\Client as HttpClient;
+use BeeDelivery\Benjamin\Services\Traits\Printable;
+use BeeDelivery\Benjamin\Services\Gateways\BaseGateway;
 
 class FacadeTest extends TestCase
 {
@@ -31,7 +31,7 @@ class FacadeTest extends TestCase
         $gateways = $this->getExpectedGateways();
 
         foreach ($gateways as $gateway) {
-            $class = new \ReflectionClass('Ebanx\Benjamin\Services\Gateways\\' . ucfirst($gateway));
+            $class = new \ReflectionClass('BeeDelivery\Benjamin\Services\Gateways\\' . ucfirst($gateway));
 
             // skip abstract gateways
             if ($class->isAbstract()) {
@@ -53,7 +53,7 @@ class FacadeTest extends TestCase
         $services = $this->getExpectedServices();
 
         foreach ($services as $service) {
-            $class = new \ReflectionClass('Ebanx\Benjamin\Services\\' . ucfirst($service));
+            $class = new \ReflectionClass('BeeDelivery\Benjamin\Services\\' . ucfirst($service));
 
             // skip abstract gateways
             if ($class->isAbstract()) {
@@ -216,7 +216,7 @@ class FacadeTest extends TestCase
             $class = get_class($gateway);
 
             if (!defined($class.'::API_TYPE')
-                || !in_array('Ebanx\Benjamin\Services\Traits\Printable', class_uses($class))) {
+                || !in_array('BeeDelivery\Benjamin\Services\Traits\Printable', class_uses($class))) {
                 continue;
             }
 

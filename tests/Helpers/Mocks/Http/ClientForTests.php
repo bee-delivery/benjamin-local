@@ -1,7 +1,7 @@
 <?php
 namespace Tests\Helpers\Mocks\Http;
 
-use Ebanx\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Http\Client;
 
 class ClientForTests extends Client
 {

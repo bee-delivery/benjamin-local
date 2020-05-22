@@ -1,7 +1,7 @@
 <?php
 namespace Tests\Unit\Models;
 
-use Ebanx\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Currency;
 use Tests\TestCase;
 
 class CurrencyTest extends TestCase

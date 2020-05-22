@@ -1,7 +1,7 @@
 <?php
-namespace Ebanx\Benjamin\Services\Http;
+namespace BeeDelivery\Benjamin\Services\Http;
 
-use Ebanx\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\Config;
 
 abstract class HttpService
 {

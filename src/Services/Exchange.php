@@ -1,11 +1,11 @@
 <?php
-namespace Ebanx\Benjamin\Services;
+namespace BeeDelivery\Benjamin\Services;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Services\Http\Client;
-use Ebanx\Benjamin\Services\Http\HttpService;
-use Ebanx\Benjamin\Services\Adapters\ExchangeAdapter;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Http\HttpService;
+use BeeDelivery\Benjamin\Services\Adapters\ExchangeAdapter;
 
 class Exchange extends HttpService
 {

@@ -1,10 +1,10 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Services\Adapters\CashPaymentAdapter;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Services\Adapters\CashPaymentAdapter;
 
 class Sencillito extends DirectGateway
 {

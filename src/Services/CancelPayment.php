@@ -1,8 +1,8 @@
 <?php
-namespace Ebanx\Benjamin\Services;
+namespace BeeDelivery\Benjamin\Services;
 
-use Ebanx\Benjamin\Services\Adapters\CancelAdapter;
-use Ebanx\Benjamin\Services\Http\HttpService;
+use BeeDelivery\Benjamin\Services\Adapters\CancelAdapter;
+use BeeDelivery\Benjamin\Services\Http\HttpService;
 
 class CancelPayment extends HttpService
 {

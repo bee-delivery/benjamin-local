@@ -1,7 +1,7 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\Currency as CurrencyModel;
+use BeeDelivery\Benjamin\Models\Currency as CurrencyModel;
 
 class CurrencyCode extends BaseProvider
 {

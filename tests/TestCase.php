@@ -3,7 +3,7 @@ namespace Tests;
 
 use Tests\Helpers\Mocks\Http\ClientForTests;
 use Tests\Helpers\Mocks\Http\EchoEngine;
-use Ebanx\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Http\Client;
 use JsonSchema;
 
 abstract class TestCase extends \PHPUnit\Framework\TestCase

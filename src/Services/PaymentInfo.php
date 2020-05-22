@@ -1,9 +1,9 @@
 <?php
-namespace Ebanx\Benjamin\Services;
+namespace BeeDelivery\Benjamin\Services;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Services\Adapters\PaymentInfoAdapter;
-use Ebanx\Benjamin\Services\Http\HttpService;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Services\Adapters\PaymentInfoAdapter;
+use BeeDelivery\Benjamin\Services\Http\HttpService;
 
 class PaymentInfo extends HttpService
 {

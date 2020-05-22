@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Services\Traits;
+namespace BeeDelivery\Benjamin\Services\Traits;
 
 trait Printable
 {

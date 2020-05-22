@@ -1,7 +1,7 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Payment;
 
 abstract class DirectGateway extends BaseGateway
 {

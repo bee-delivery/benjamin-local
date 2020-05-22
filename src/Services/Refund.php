@@ -1,9 +1,9 @@
 <?php
-namespace Ebanx\Benjamin\Services;
+namespace BeeDelivery\Benjamin\Services;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Services\Adapters\RefundAdapter;
-use Ebanx\Benjamin\Services\Http\HttpService;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Services\Adapters\RefundAdapter;
+use BeeDelivery\Benjamin\Services\Http\HttpService;
 
 class Refund extends HttpService
 {

@@ -1,9 +1,9 @@
 <?php
 namespace Tests\Unit\Services\Adapters;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\SplitRule;
-use Ebanx\Benjamin\Services\Adapters\RefundAdapter;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\SplitRule;
+use BeeDelivery\Benjamin\Services\Adapters\RefundAdapter;
 use Tests\TestCase;
 
 class RefundAdapterTest extends TestCase

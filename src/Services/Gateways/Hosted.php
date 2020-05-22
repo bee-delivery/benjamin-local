@@ -1,11 +1,11 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Currency;
 
-use Ebanx\Benjamin\Models\Request;
-use Ebanx\Benjamin\Services\Adapters\RequestAdapter;
+use BeeDelivery\Benjamin\Models\Request;
+use BeeDelivery\Benjamin\Services\Adapters\RequestAdapter;
 
 class Hosted extends BaseGateway
 {

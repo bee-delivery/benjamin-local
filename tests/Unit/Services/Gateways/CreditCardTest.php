@@ -1,16 +1,16 @@
 <?php
 namespace Tests\Unit\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Responses\PaymentTerm;
+use BeeDelivery\Benjamin\Models\Responses\PaymentTerm;
 use Tests\Helpers\Builders\BuilderFactory;
 
-use Ebanx\Benjamin\Models\Configs\CreditCardConfig;
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Configs\CreditCardConfig;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Currency;
 
-use Ebanx\Benjamin\Services\Gateways\CreditCard;
-use Ebanx\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Gateways\CreditCard;
+use BeeDelivery\Benjamin\Services\Http\Client;
 
 class CreditCardTest extends GatewayTestCase
 {

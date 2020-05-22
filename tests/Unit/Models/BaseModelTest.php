@@ -2,7 +2,7 @@
 namespace Tests\Unit\Models;
 
 use Tests\TestCase;
-use Ebanx\Benjamin\Models\BaseModel;
+use BeeDelivery\Benjamin\Models\BaseModel;
 
 class BaseModelTest extends TestCase
 {

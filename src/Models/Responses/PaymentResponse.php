@@ -1,7 +1,7 @@
 <?php
-namespace Ebanx\Benjamin\Models\Responses;
+namespace BeeDelivery\Benjamin\Models\Responses;
 
-use Ebanx\Benjamin\Models\BaseModel;
+use BeeDelivery\Benjamin\Models\BaseModel;
 
 class PaymentResponse extends BaseModel
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Models;
+namespace BeeDelivery\Benjamin\Models;
 
 abstract class BaseModel
 {

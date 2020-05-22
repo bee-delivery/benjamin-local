@@ -1,5 +1,5 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
 class SafetyPayCash extends SafetyPay
 {

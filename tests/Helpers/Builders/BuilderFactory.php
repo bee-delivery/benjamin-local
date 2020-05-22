@@ -2,7 +2,7 @@
 namespace Tests\Helpers\Builders;
 
 use Faker;
-use Ebanx\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Payment;
 use Tests\Helpers\Providers;
 
 class BuilderFactory

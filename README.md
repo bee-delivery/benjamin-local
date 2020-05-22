@@ -10,15 +10,15 @@ The objective is to be a central repository for services and to communicate with
 
 ## Getting Started
 
-It is very simple to use Benjamin. You will only need an instance of `Ebanx\Benjamin\Models\Configs\Config` and an instance of `Ebanx\Benjamin\Models\Payment`:
+It is very simple to use Benjamin. You will only need an instance of `BeeDelivery\Benjamin\Models\Configs\Config` and an instance of `BeeDelivery\Benjamin\Models\Payment`:
 
 ```php
 <?php
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Payment;
 
 $config = new Config([
     'integrationKey' => 'YOUR_INTEGRATION_KEY',

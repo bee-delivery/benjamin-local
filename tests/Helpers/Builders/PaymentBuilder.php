@@ -1,10 +1,10 @@
 <?php
 namespace Tests\Helpers\Builders;
 
-use Ebanx\Benjamin\Models\Card;
+use BeeDelivery\Benjamin\Models\Card;
 use Faker;
-use Ebanx\Benjamin\Models\Bank;
-use Ebanx\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Bank;
+use BeeDelivery\Benjamin\Models\Payment;
 
 class PaymentBuilder extends BaseBuilder
 {

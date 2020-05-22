@@ -2,7 +2,7 @@
 namespace Tests\Unit\Models;
 
 use Tests\TestCase;
-use Ebanx\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Country;
 
 class CountryTest extends TestCase
 {

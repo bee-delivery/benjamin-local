@@ -1,7 +1,7 @@
 <?php
-namespace Ebanx\Benjamin\Models\Configs;
+namespace BeeDelivery\Benjamin\Models\Configs;
 
-use Ebanx\Benjamin\Models\BaseModel;
+use BeeDelivery\Benjamin\Models\BaseModel;
 
 class CreditCardInterestRateConfig extends BaseModel
 {

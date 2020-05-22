@@ -3,11 +3,11 @@ namespace Tests\Unit\Services\Gateways;
 
 use Tests\Helpers\Builders\BuilderFactory;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Services\Gateways\SafetyPayOnline;
-use Ebanx\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Services\Gateways\SafetyPayOnline;
+use BeeDelivery\Benjamin\Services\Http\Client;
 
 class SafetyPayOnlineTest extends GatewayTestCase
 {

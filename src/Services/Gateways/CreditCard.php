@@ -1,16 +1,16 @@
 <?php
-namespace Ebanx\Benjamin\Services\Gateways;
+namespace BeeDelivery\Benjamin\Services\Gateways;
 
-use Ebanx\Benjamin\Models\Country;
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Models\Configs\CreditCardConfig;
-use Ebanx\Benjamin\Models\Currency;
-use Ebanx\Benjamin\Models\Payment;
-use Ebanx\Benjamin\Models\Responses\PaymentTerm;
-use Ebanx\Benjamin\Services\Adapters\CaptureAdapter;
-use Ebanx\Benjamin\Services\Adapters\CardPaymentAdapter;
-use Ebanx\Benjamin\Services\Exchange;
-use Ebanx\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Models\Country;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Models\Configs\CreditCardConfig;
+use BeeDelivery\Benjamin\Models\Currency;
+use BeeDelivery\Benjamin\Models\Payment;
+use BeeDelivery\Benjamin\Models\Responses\PaymentTerm;
+use BeeDelivery\Benjamin\Services\Adapters\CaptureAdapter;
+use BeeDelivery\Benjamin\Services\Adapters\CardPaymentAdapter;
+use BeeDelivery\Benjamin\Services\Exchange;
+use BeeDelivery\Benjamin\Services\Http\Client;
 
 class CreditCard extends DirectGateway
 {

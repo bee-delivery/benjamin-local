@@ -1,12 +1,12 @@
 <?php
 namespace Tests\Helpers\Providers;
 
-use Ebanx\Benjamin\Models\Person as PersonModel;
+use BeeDelivery\Benjamin\Models\Person as PersonModel;
 
 abstract class Person extends BaseProvider
 {
     /**
-     * @return \Ebanx\Benjamin\Models\Person
+     * @return \BeeDelivery\Benjamin\Models\Person
      */
     public function personModel()
     {
@@ -22,7 +22,7 @@ abstract class Person extends BaseProvider
     }
 
     /**
-     * @return \Ebanx\Benjamin\Models\Person
+     * @return \BeeDelivery\Benjamin\Models\Person
      */
     public function businessPersonModel()
     {

@@ -2,7 +2,7 @@
 namespace Tests\Helpers\Builders;
 
 use Faker;
-use Ebanx\Benjamin\Models\BaseModel;
+use BeeDelivery\Benjamin\Models\BaseModel;
 
 abstract class BaseBuilder
 {

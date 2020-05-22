@@ -1,9 +1,9 @@
 <?php
 namespace Tests\Unit\Services;
 
-use Ebanx\Benjamin\Models\Configs\Config;
-use Ebanx\Benjamin\Services\Http\Client;
-use Ebanx\Benjamin\Services\Refund;
+use BeeDelivery\Benjamin\Models\Configs\Config;
+use BeeDelivery\Benjamin\Services\Http\Client;
+use BeeDelivery\Benjamin\Services\Refund;
 use Tests\Helpers\Environment;
 use Tests\Helpers\Mocks\Http\ClientForTests;
 use Tests\Helpers\Mocks\Http\EchoEngine;
